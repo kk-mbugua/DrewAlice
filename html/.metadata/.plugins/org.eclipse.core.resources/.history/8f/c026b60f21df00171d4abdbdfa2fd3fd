@@ -62,147 +62,147 @@ simplemaps_statemap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Atlantic",
+      url: "http://localhost:8888/html/database.php?county=Atlantic"
     },
     "34003": {
       name: "Bergen",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Bergen"
+      url: "http://localhost:8888/html/database.php?county=Bergen"
     },
     "34005": {
       name: "Burlington",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Burlington"
+      url: "http://localhost:8888/html/database.php?county=Burlington"
     },
     "34007": {
       name: "Camden",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Camden"
+      url: "http://localhost:8888/html/database.php?county=Camden"
     },
     "34009": {
       name: "Cape May",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Cape May"
+      url: "http://localhost:8888/html/database.php?county=Cape May"
     },
     "34011": {
       name: "Cumberland",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Cumberland"
+      url: "http://localhost:8888/html/database.php?county=Cumberland"
     },
     "34013": {
       name: "Essex",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Essex"
+      url: "http://localhost:8888/html/database.php?county=Essex"
     },
     "34015": {
       name: "Gloucester",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Gloucester"
+      url: "http://localhost:8888/html/database.php?county=Gloucester"
     },
     "34017": {
       name: "Hudson",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Hudson"
+      url: "http://localhost:8888/html/database.php?county=Hudson"
     },
     "34019": {
       name: "Hunterdon",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Hunterdon"
+      url: "http://localhost:8888/html/database.php?county=Hunterdon"
     },
     "34021": {
       name: "Mercer",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Mercer"
+      url: "http://localhost:8888/html/database.php?county=Mercer"
     },
     "34023": {
       name: "Middlesex",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Middlesex"
+      url: "http://localhost:8888/html/database.php?county=Middlesex"
     },
     "34025": {
       name: "Monmouth",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Monmouth"
+      url: "http://localhost:8888/html/database.php?county=Monmouth"
     },
     "34027": {
       name: "Morris",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Morris"
+      url: "http://localhost:8888/html/database.php?county=Morris"
     },
     "34029": {
       name: "Ocean",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Ocean"
+      url: "http://localhost:8888/html/database.php?county=Ocean"
     },
     "34031": {
       name: "Passaic",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Passaic"
+      url: "http://localhost:8888/html/database.php?county=Passaic"
     },
     "34033": {
       name: "Salem",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Salem"
+      url: "http://localhost:8888/html/database.php?county=Salem"
     },
     "34035": {
       name: "Somerset",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Somerset"
+      url: "http://localhost:8888/html/database.php?county=Somerset"
     },
     "34037": {
       name: "Sussex",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Sussex"
+      url: "http://localhost:8888/html/database.php?county=Sussex"
     },
     "34039": {
       name: "Union",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Union"
+      url: "http://localhost:8888/html/database.php?county=Union"
     },
     "34041": {
       name: "Warren",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "http://localhost:8888/html/usercomparison.php?county=Warren"
+      url: "http://localhost:8888/html/database.php?county=Warren"
     }
   },
   locations: {},
