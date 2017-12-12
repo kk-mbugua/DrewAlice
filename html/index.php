@@ -14,10 +14,13 @@ and open the template in the editor.
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <h1>ALICE</h1>
-        <h2>NEW JERSEY</h2>
+        <div class='text-center well' style="background-color: #1a237e ">
+            <h1 style="color: white">ALICE<small>NEW JERSEY</small></h1>
+        </div>
+        <div class ='well text-center'>
         <script src="scripts/mapdata.js"></script>
         <script src="scripts/statemap.js"></script>
+        </div>
         <?php
         ?>
         <div id="map"></div>
