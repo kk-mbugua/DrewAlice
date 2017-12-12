@@ -15,7 +15,7 @@ and open the template in the editor.
     </head>
     <body>
         <div class='text-center well' style="background-color: #1a237e ">
-            <h1 style="color: white">ALICE<small>NEW JERSEY</small></h1>
+            <h1 style="color: white">ALICE<small>   NEW JERSEY</small></h1>
         </div>
         <div class ='well text-center'>
         <script src="scripts/mapdata.js"></script>
