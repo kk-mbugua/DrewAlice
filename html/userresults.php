@@ -4,8 +4,12 @@
     <head>
         <meta charset="UTF-8">
         <title>DREW ALICE NJ</title>
-        <link rel="stylesheet" href="css/1510645746.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
+    
     <body>
         <script src="css/pure-layout-side-menu/js/ui.js"></script>
         <?php
@@ -47,7 +51,7 @@
         }
 
         mysqli_close($conn);
-        echo "<b>In $county county you are <u>$bool</u> the ALICE minimum";
+        echo "<b>In" . $county . "county you are <u>" . $bool . "</u> the ALICE minimum";
         ?>
         <br><br>
         <input type="button" onclick="location.href='database.php?county=<?php echo $county?>'" value="View Statistis for <?php echo $county;?>" />
