@@ -30,7 +30,8 @@ $county = $_GET["county"];
             </select>
             <br><br>
             <h4 class='text-primary'>What is your family's annual income?</h4>
-            <input type="text" name="income" value=""><br>
+            <input type="number" name="income" value="" required="true" placeholder="50000">
+            <br>
             <br>
             Generate results for <input type="submit" value="<?php echo $county?>" name="county"> county
         </div>
