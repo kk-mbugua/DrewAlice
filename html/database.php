@@ -39,8 +39,8 @@
             </div>
             <div class="well" style="background-color: #8c9eff">
         <?php
-        $user = 'root';
-        $password = 'root';
+        $user = 'user';
+        $password = 'password';
         $db = 'drewalice';
         $host = 'localhost';
         $port = 3306;
@@ -94,8 +94,8 @@
             </div>
             <div class="well" style="background-color: #8c9eff">
         <?php
-        $user = 'root';
-        $password = 'root';
+        $user = 'user';
+        $password = 'password';
         $db = 'drewalice';
         $host = 'localhost';
         $port = 3306;

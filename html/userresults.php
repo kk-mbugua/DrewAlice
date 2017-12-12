@@ -33,8 +33,8 @@
         </div>
         
         <?php
-        $user = 'root';
-        $password = 'root';
+        $user = 'user';
+        $password = 'password';
         $db = 'drewalice';
         $host = 'localhost';
         $port = 3306;

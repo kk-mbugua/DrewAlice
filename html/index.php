@@ -8,11 +8,14 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>DREW ALICE NJ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
         <h1>ALICE</h1>
         <h2>NEW JERSEY</h2>
-        <b>Click on a county to view TWO PARENT TWO CHILD ALICE Statistics</b>
         <script src="scripts/mapdata.js"></script>
         <script src="scripts/statemap.js"></script>
         <?php
