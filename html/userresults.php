@@ -11,13 +11,28 @@
     </head>
     
     <body>
-        <script src="css/pure-layout-side-menu/js/ui.js"></script>
+ 
         <?php
         
         $county = $_GET["county"];
         $famtype = $_GET["family"];
-        $income = $_GET["income"];
+        $income = $_GET["income"]; 
+        if ($famtype == "family") {
+            $familytype = "a family with Two adults and Two childern";
+        } else {
+            $familytype = "a single adult";
+        }
         
+        ?>
+        
+        <div class="12 well lead text-center" style="background-color: #1a237e ">
+                    
+        <?php echo "<h2 style='color: white'><u>" . $county;
+        echo ", New Jersey </u></h2> <br>"; ?>
+           
+        </div>
+        
+        <?php
         $user = 'root';
         $password = 'root';
         $db = 'drewalice';
@@ -51,10 +66,15 @@
         }
 
         mysqli_close($conn);
-        echo "<b>In" . $county . "county you are <u>" . $bool . "</u> the ALICE minimum";
+        
+        echo "<div class='well text-center'>";
+        echo "<b>Earning <u>$" . $income . "</u> a year for " . $familytype . "</b>";
+        echo "<b>In " . $county . " county you are <u>" . $bool . "</u> the ALICE minimum";
         ?>
+        
         <br><br>
-        <input type="button" onclick="location.href='database.php?county=<?php echo $county?>'" value="View Statistis for <?php echo $county;?>" />
+        <input type="button" onclick="location.href='database.php?county=<?php echo $county?>'" value="View All Statistis for <?php echo $county;?>" />
         <input type="button" onclick="location.href='usercomparison.php?county=<?php echo $county?>'" value="Calculate different income for <?php echo $county;?> county" />
+        </div>
     </body>
 </html>

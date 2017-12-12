@@ -12,7 +12,7 @@
     
     <body>
         <?php $county = $_GET["county"];?>
-        
+        <div class="col-md-12 well">
         <div class="12 well lead text-center" style="background-color: #1a237e ">
                     
         <?php echo "<h2 style='color: white'><u>" . $county;
@@ -137,6 +137,7 @@
 
         mysqli_close($conn);
         ?>
+        </div>
         </div>
         </div>
     

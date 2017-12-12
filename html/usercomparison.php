@@ -20,7 +20,7 @@ $county = $_GET["county"];
         echo ", New Jersey </u></h2> <br>"; ?>
            
         </div>
-    
+
     <form action="userresults.php" method="get" align="center">
         <div class="form-group container well text-center">
             <h4 class='text-primary'>Family type (single adult or Family of four)</h4>
@@ -32,7 +32,7 @@ $county = $_GET["county"];
             <h4 class='text-primary'>What is your family's annual income?</h4>
             <input type="text" name="income" value=""><br>
             <br>
-            <input type="submit" >
+            Generate results for <input type="submit" value="<?php echo $county?>" name="county"> county
         </div>
     </form>
     <div class="text-center well">
