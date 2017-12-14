@@ -11,7 +11,7 @@
     </head>
     
     <body>
-        <?php $county = $_GET["county"];?>
+<?php $county = $_GET["county"];// Authored by: Parth Patel?>
         <div class="col-md-12 well">
         <div class="12 well lead text-center" style="background-color: #1a237e ">
                     
