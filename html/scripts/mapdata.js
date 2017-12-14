@@ -1,3 +1,5 @@
+//Found and Edited by Parth Patel
+
 simplemaps_statemap_mapdata={
   main_settings: {
     width: "700",
