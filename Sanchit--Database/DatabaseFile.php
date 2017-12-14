@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<!CSCI 330 DB Author- Sanchit Sahni >
+// CSCI 330 DB Author- Sanchit Sahni 
 <html>
     <head>
         /* Databse File> */
