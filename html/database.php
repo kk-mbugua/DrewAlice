@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<!-- Authored by: Parth Patel until line 40 -->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -11,7 +11,7 @@
     </head>
     
     <body>
-<?php $county = $_GET["county"];// Authored by: Parth Patel?>
+<?php $county = $_GET["county"];?>
         <div class="col-md-12 well">
         <div class="12 well lead text-center" style="background-color: #1a237e ">
                     
