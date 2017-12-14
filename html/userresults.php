@@ -66,7 +66,7 @@
         }
 
         mysqli_close($conn);
-        
+        <!-- Parth authored lines 70 to 73 -->
         echo "<div class='well text-center'>";
         echo "<b>Earning <u>$" . $income . "</u> a year for " . $familytype . "</b>";
         echo "<b>In " . $county . " county you are <u>" . $bool . "</u> the ALICE minimum";
